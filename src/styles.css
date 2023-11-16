@@ -35,7 +35,15 @@ footer i {
 .navbar {
   box-shadow: var(--box-shadow);
 }
+.portrait {
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 100%;
+}
 @media only screen and (max-width: 750px) {
+  .about-section {
+    text-align: center;
+  }
   .hero {
     background-color: var(--primary-color);
     background-image: none;
