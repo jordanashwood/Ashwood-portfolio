@@ -1,9 +1,13 @@
 :root {
   --primary-color: #fac9ca;
+  --secondary-color: #6c9068;
   --box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
 }
 footer i {
   font-size: 30px;
+}
+.about-section h2 {
+  color: var(--secondary-color);
 }
 .button {
   background-color: white;
@@ -17,7 +21,20 @@ footer i {
 }
 .button:hover {
   box-shadow: none;
-  background-color: #6c9068;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.button-pink {
+  background-color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  color: #212529;
+  transition: all 200ms ease-in-out;
+}
+.button-pink:hover {
+  background-color: #eb9899;
   color: white;
 }
 .hero {
@@ -35,15 +52,21 @@ footer i {
 .navbar {
   box-shadow: var(--box-shadow);
 }
+.portfolio-section {
+  background-color: var(--secondary-color);
+  padding: 80px;
+}
 .portrait {
   max-width: 500px;
   min-width: 300px;
   border-radius: 100%;
 }
 @media only screen and (max-width: 750px) {
-  .about-section {
+  .about-section p {
     text-align: center;
+    margin-top: 20px;
   }
+
   .hero {
     background-color: var(--primary-color);
     background-image: none;
