@@ -16,6 +16,9 @@ body {
 footer i {
   font-size: 30px;
 }
+.about-image img {
+  max-width: 10px;
+}
 .about-section h2 {
   color: var(--secondary-color);
 }
