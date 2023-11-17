@@ -69,8 +69,22 @@ footer i {
 
   .hero {
     background-color: var(--primary-color);
-    background-image: none;
+    background-image: url("/img/hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 115%;
     height: 300px;
     text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 48px;
+  }
+  .hero-text h2 {
+    font-size: 20px;
+  }
+  .portfolio-section .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
