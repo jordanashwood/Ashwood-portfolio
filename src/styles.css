@@ -3,6 +3,9 @@
   --secondary-color: #6c9068;
   --box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 footer i {
   font-size: 30px;
 }
@@ -37,13 +40,24 @@ footer i {
   background-color: #eb9899;
   color: white;
 }
+.download-icon {
+  font-size: 80px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 100%;
+  padding: 30px;
+  transition: all 200ms ease-in-out;
+}
+.download-icon:hover {
+  color: #eb9899;
+  transform: scale(1.1);
+}
 .hero {
   background-image: url("/img/hero-leaf.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
   height: 550px;
-  font-family: "Poppins", sans-serif;
   margin-left: -20px;
 }
 .hero h1 {
@@ -64,18 +78,31 @@ footer i {
 .portfolio-section {
   background-color: var(--secondary-color);
   padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .portrait {
   max-width: 500px;
   min-width: 300px;
   border-radius: 100%;
 }
+.portfolio-section .row {
+  gap: 20px;
+}
+.sm-icon {
+  color: #a1a1a1;
+  transition: all 200ms ease-in-out;
+}
+.sm-icon:hover {
+  color: var(--secondary-color);
+  font-size: 36px;
+}
 @media only screen and (max-width: 750px) {
   .about-section p {
     text-align: center;
     margin-top: 20px;
   }
-
   .hero {
     background-color: var(--primary-color);
     background-image: url("/img/hero-mobile.svg");
