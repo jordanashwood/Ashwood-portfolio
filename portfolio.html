@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jordan Ashwood | Portfolio</title>
+    <title>Jordan Ashwood Portfolio</title>
     <!-- link to css -->
     <link rel="stylesheet" href="src/styles.css" />
     <!-- import bootstrap -->
@@ -29,7 +29,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand p-2 logo" href="index.html"></a>
+        <a class="navbar-brand p-2 logo" href="/index.html"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,11 +44,6 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/about.html">About Me</a>
             </li>
             <li class="nav-item">
@@ -61,7 +56,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -71,13 +66,25 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/portfolio.html"
+                  <a class="dropdown-item" href="/portfolio.html#development"
                     >Development</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">Graphic Design</a></li>
-                <li><a class="dropdown-item" href="#">Photography</a></li>
-                <li><a class="dropdown-item" href="#">Web Design</a></li>
+                <li>
+                  <a class="dropdown-item" href="/portfolio.html#graphics"
+                    >Graphic Design</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/portfolio.html#photography"
+                    >Photography</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/portfolio.html#web-design"
+                    >Web Design</a
+                  >
+                </li>
               </ul>
             </li>
 
@@ -88,11 +95,56 @@
         </div>
       </div>
     </nav>
+    <div
+      class="container-fluid header-image d-flex align-items-center justify-content-center"
+    >
+      <div class="row d-flex pb-4">
+        <h1>My Portfolio</h1>
+      </div>
+    </div>
     <div class="container text-center">
       <h2 id="development">Development</h2>
       <h2 id="graphics">Graphic Design</h2>
       <h2 id="photography">Photography</h2>
       <h2 id="web-design">Web Design</h2>
+    </div>
+    <div class="container-fluid">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted"
+            >&copy; 2023 Jordan Ashwood</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.linkedin.com/in/jordan-ashwood/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin sm-icon"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.instagram.com/jordannmace/"
+              target="_blank"
+              ><i class="fa-brands fa-square-instagram sm-icon"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
   <!-- import bootstrap js -->
