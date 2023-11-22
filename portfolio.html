@@ -118,7 +118,7 @@
         >
           <div class="col-md-4">
             <img
-              class="img-fluid m-3 rounded border"
+              class="img-fluid mt-3 rounded border"
               src="/img/dictionary-app.png"
               alt="Image of Dictionary App"
               style="width: 22rem"
@@ -133,7 +133,7 @@
           </div>
           <div class="col-md-4">
             <img
-              class="img-fluid m-3 rounded border"
+              class="img-fluid mt-3 rounded border"
               src="/img/lacrosse-app.png"
               alt="Image of La Crosse App"
               style="width: 22rem"
@@ -148,7 +148,7 @@
           </div>
           <div class="col-md-4">
             <img
-              class="img-fluid m-3 rounded border"
+              class="img-fluid mt-3 rounded border"
               src="/img/mace-app.png"
               alt="Image of Mace Creative Co App"
               style="width: 22rem"
@@ -167,7 +167,7 @@
         >
           <div class="col-md-4">
             <img
-              class="img-fluid m-3 rounded border"
+              class="img-fluid mt-3 rounded border"
               src="/img/weather-react-app.png"
               alt="Image of React Weather App"
               style="width: 22rem"
@@ -182,7 +182,7 @@
           </div>
           <div class="col-md-4">
             <img
-              class="img-fluid m-3 rounded border"
+              class="img-fluid mt-3 rounded border"
               src="/img/world-clock-app.png"
               alt="Image of World Clock App"
               style="width: 22rem"
@@ -197,143 +197,240 @@
           </div>
         </div>
       </div>
-      <h2 id="graphics">Graphic Design</h2>
-      <h2 id="photography">Photography</h2>
+      <h2 class="mt-5" id="graphics">Graphic Design</h2>
+      <h2 class="mt-5" id="photography">Photography</h2>
       <div class="container">
-        <div class="row col-md-5 d-flex flex-row justify-content-around">
-          <h5>Food Photography</h5>
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
+        <div
+          class="row d-flex flex-row justify-content-around align-items-center"
+        >
+          <div class="col-md-5">
+            <h5>Food Photography</h5>
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/img/food/bao.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/img/food/biscuit.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/img/food/breakfast.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/img/food/egggrits.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/img/food/ramen.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
               <button
+                class="carousel-control-prev"
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
               <button
+                class="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="3"
-                aria-label="Slide 4"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="4"
-                aria-label="Slide 5"
-              ></button>
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/img/food/bao.png" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="/img/food/biscuit.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="/img/food/breakfast.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="/img/food/egggrits.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="/img/food/ramen.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-      <h2 id="web-design">Web Design</h2>
-    </div>
-    <div class="container-fluid">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <div class="col-md-4 d-flex align-items-center">
-          <a
-            href="/"
-            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
-          >
-            <svg class="bi" width="30" height="24">
-              <use xlink:href="#bootstrap" />
-            </svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-muted"
-            >&copy; 2023 Jordan Ashwood</span
-          >
+          <div class="col-md-5">
+            <h5>Portrait Photography</h5>
+            <div id="carouselExampleIndicators2" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/img/portraits/portrait1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/img/portraits/portrait2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/img/portraits/portrait3.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/img/portraits/portrait4.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
+      <h2 class="mt-5" id="web-design">Web Design</h2>
+      <div class="container-fluid">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+            >
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap" />
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted"
+              >&copy; 2023 Jordan Ashwood</span
+            >
+          </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a
-              class="text-muted"
-              href="https://www.linkedin.com/in/jordan-ashwood/"
-              target="_blank"
-              ><i class="fa-brands fa-linkedin sm-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a
-              class="text-muted"
-              href="https://www.instagram.com/jordannmace/"
-              target="_blank"
-              ><i class="fa-brands fa-square-instagram sm-icon"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-muted"
+                href="https://www.linkedin.com/in/jordan-ashwood/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin sm-icon"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-muted"
+                href="https://www.instagram.com/jordannmace/"
+                target="_blank"
+                ><i class="fa-brands fa-square-instagram sm-icon"></i
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </div>
   </body>
   <!-- import bootstrap js -->
