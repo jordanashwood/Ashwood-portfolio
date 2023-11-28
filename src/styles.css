@@ -22,6 +22,10 @@ footer i {
 h5 {
   margin: 20px !important;
 }
+ul {
+  list-style: none;
+}
+
 .about-section h2 {
   color: var(--secondary-color);
 }
@@ -120,6 +124,13 @@ h5 {
 .portfolio-section .row {
   gap: 20px;
 }
+.project-nav a {
+  color: #6c9068;
+  transition: all 200ms ease-in-out;
+}
+.project-nav a:hover {
+  color: #4e704a;
+}
 .sm-icon {
   color: #a1a1a1;
   transition: all 200ms ease-in-out;
@@ -128,7 +139,6 @@ h5 {
   color: var(--secondary-color);
   font-size: 36px;
 }
-
 @media only screen and (max-width: 750px) {
   .about-image {
     flex-wrap: wrap;
